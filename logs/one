@@ -1,0 +1,38 @@
+[/prefix/node1 /prefix/node2 /prefix/node3 /prefix/node4 /prefix/node5]
+got interest for name:  /prefix/node1/%3Crepo%3E/item2/bid/%07%0F%08%06prefix%08%05node2/6993092779597699549
+results interest:  /prefix/node2/%3Crepo%3E/item2/results/6993092779597699549
+item2 bid:  10
+item1 bid:  51
+interest:  /prefix/node2/%3Crepo%3E/item1/bid/%07%0F%08%06prefix%08%05node1/5694669461090380659
+interest:  /prefix/node3/%3Crepo%3E/item1/bid/%07%0F%08%06prefix%08%05node1/5694669461090380659
+interest:  /prefix/node4/%3Crepo%3E/item1/bid/%07%0F%08%06prefix%08%05node1/5694669461090380659
+interest:  /prefix/node5/%3Crepo%3E/item1/bid/%07%0F%08%06prefix%08%05node1/5694669461090380659
+got interest for name:  /prefix/node1/%3Crepo%3E/item4/bid/%07%0F%08%06prefix%08%05node4/9105311421865471742
+results interest:  /prefix/node4/%3Crepo%3E/item4/results/9105311421865471742
+item4 bid:  72
+got interest for name:  /prefix/node1/%3Crepo%3E/item5/bid/%07%0F%08%06prefix%08%05node5/3763911095767657828
+results interest:  /prefix/node5/%3Crepo%3E/item5/results/3763911095767657828
+item5 bid:  7
+got interest for name:  /prefix/node1/%3Crepo%3E/item3/bid/%07%0F%08%06prefix%08%05node3/7530168508690825542
+results interest:  /prefix/node3/%3Crepo%3E/item3/results/7530168508690825542
+item3 bid:  196
+Received Data Name: /prefix/node4/%3Crepo%3E/item1/bid/%07%0F%08%06prefix%08%05node1/5694669461090380659
+got interest for name:  /prefix/node1/%3Crepo%3E/item1/results/5694669461090380659
+Received Data Name: /prefix/node3/%3Crepo%3E/item1/bid/%07%0F%08%06prefix%08%05node1/5694669461090380659
+Received Data Name: /prefix/node5/%3Crepo%3E/item1/bid/%07%0F%08%06prefix%08%05node1/5694669461090380659
+Received Data Name: /prefix/node2/%3Crepo%3E/item1/bid/%07%0F%08%06prefix%08%05node1/5694669461090380659
+winners: /prefix/node2 /prefix/node4 /prefix/node5 
+Received Data Name: /prefix/node2/%3Crepo%3E/item2/results/6993092779597699549
+winners:  [/prefix/node5 /prefix/node2 /prefix/node4]
+got interest for name:  /prefix/node1/%3Crepo%3E/item1/results/5694669461090380659
+Received Data Name: /prefix/node4/%3Crepo%3E/item4/results/9105311421865471742
+winners:  [/prefix/node3 /prefix/node4 /prefix/node1]
+I won item4
+Received Data Name: /prefix/node3/%3Crepo%3E/item3/results/7530168508690825542
+winners:  [/prefix/node5 /prefix/node1 /prefix/node3]
+I won item3
+got interest for name:  /prefix/node1/%3Crepo%3E/item1/results/5694669461090380659
+Received Data Name: /prefix/node5/%3Crepo%3E/item5/results/3763911095767657828
+winners:  [/prefix/node5 /prefix/node2 /prefix/node3]
+map[item1:{item1 5694669461090380659 5 [{/prefix/node2 138} {/prefix/node4 74} {/prefix/node5 62} {/prefix/node1 51} {/prefix/node3 32}] 5 /prefix/node2 /prefix/node4 /prefix/node5 }]
+Hello World
