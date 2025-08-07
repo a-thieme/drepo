@@ -128,7 +128,7 @@ func (a *AuctionEngine) AuctionItem(itemId string) {
 		fmt.Println("interest: ", iName)
 		object.ExpressR(a.engine, ndn.ExpressRArgs{
 			Name:    iName,
-			Retries: 1,
+			Retries: 5,
 			Config:  &intCfg,
 			Callback: func(args ndn.ExpressCallbackArgs) {
 				switch args.Result {
@@ -162,7 +162,7 @@ func (a *AuctionEngine) fetchResults(auctioneer []byte, itemId string, nonce str
 	intCfg.Nonce = utils.ConvertNonce(a.engine.Timer().Nonce())
 	object.ExpressR(a.engine, ndn.ExpressRArgs{
 		Name:    iName,
-		Retries: 1,
+		Retries: 5,
 		Config:  &intCfg,
 		Callback: func(args ndn.ExpressCallbackArgs) {
 			switch args.Result {
